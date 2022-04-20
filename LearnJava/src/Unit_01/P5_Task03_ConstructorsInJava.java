@@ -5,25 +5,20 @@ public class P5_Task03_ConstructorsInJava {
 	public static void main(String[] args) {
 		
 		ABC4 obj = new ABC4();
-		System.out.println(obj.a);
-		
-		
+		obj.display();
+		System.out.println(obj.a);		
 	}
 
 }
 
-
 class ABC4 {
 
-	int a;
-	
-	
+	int a;	
 	/*
 	 ClassName(Constructor Parameters){
 	 	All the class and Instance variables can be initialized here!
 	 }
-	 */
-	
+	 */	
 	ABC4(){
 		a = 10;
 	}
@@ -36,7 +31,7 @@ class ABC4 {
 	
 	void display() {
 		
-		int b = 10;
+		int b = 11;
 
 		System.out.println(a);
 		System.out.println(b);
@@ -50,6 +45,5 @@ class ABC4 {
 		//System.out.println(b);
 		
 		return a;
-
 	}
 }
