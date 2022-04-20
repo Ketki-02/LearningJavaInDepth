@@ -20,6 +20,11 @@ public class P12_Task01_InterfaceInJava implements Animal {
 		C1 obj = new C1();
 		obj.funcA();
 		obj.funcB();
+		Species obj1 = new Species();
+				obj1.animalsound();
+				obj1.run();
+				obj1.humansound();
+				obj1.run1();
 		
 	}
 	
@@ -51,7 +56,7 @@ class Species implements Animal, Human{
 	
 	public void run1() {
 		
-		System.out.println("We are inside run method");
+		System.out.println("We are inside run1 method");
 	
 	}
 	
