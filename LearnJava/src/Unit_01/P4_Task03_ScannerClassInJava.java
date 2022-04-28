@@ -12,7 +12,7 @@ public class P4_Task03_ScannerClassInJava {
 		
 		System.out.println("Enter Second name : ");
 		String nm2 = myobj2.nextLine();
-		System.out.println("Second Name is" + nm2 + "\n");
+		System.out.println("Second Name is " + nm2 + "\n");
 		
 		System.out.println("Enter Boolean Value : ");
 		boolean b = myobj2.nextBoolean();

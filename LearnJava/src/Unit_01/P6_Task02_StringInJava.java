@@ -17,7 +17,7 @@ class StringInJava {
 	void StringDefinition() {
 		
 		String s = "Hello There!";
-		String s1 = new String("abcdefgh");
+		//String s1 = new String("abcdefgh");
 		
 		System.out.println(s);
 		
@@ -51,12 +51,11 @@ class StringInJava {
 		 * 
 		 */
 		
-		String fourth = "Goyal";
-		String fifth = new String("Goel!");
+		//String fourth = "Goyal";
+		//String fifth = new String("Goel!");
 		
 	}
-	
-	
+		
 	/*
 	 * Character Array are mutable but strings are not.
 	 * 
@@ -64,7 +63,7 @@ class StringInJava {
 	
 	void charAndString() {
 		char[] ch = {'H','e','l','l','o',' ','T','h','e','r','e','!'};
-		char[] ch2 = {'!','!'};
+		//char[] ch2 = {'!','!'};
 		
 		System.out.println(ch);
 		
@@ -88,12 +87,12 @@ class StringInJava {
 		// ch = ch + ch2;
 		
 		//String to char array
-		String s2 = "GEEKS";
-		char[] ch4 = s2.toCharArray();
+		  //String s2 = "GEEKS";
+		  //char[] ch4 = s2.toCharArray();
 		
 		//char array to string
-		char[] a2 = {'A','K','A'};
-		String s3 = new String(a2);
+		  //char[] a2 = {'A','K','A'};
+		  //String s3 = new String(a2);
 		
 	}
 }

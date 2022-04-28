@@ -3,12 +3,11 @@ package Unit_01;
 public class P6_Task01_ArraysInJava {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
         int array1[];
-		int[] array2;
-		int []array3;
-		
-		
+		//int[] array2;
+		//int []array3;
+				
 		//can not do it as we have not provide it any memory/space yet!
 		//array1[0] = 1;
 		

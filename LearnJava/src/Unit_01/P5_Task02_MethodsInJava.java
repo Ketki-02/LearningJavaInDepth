@@ -15,7 +15,7 @@ class ABC3 {
 	static void display() {
 		int b = 10;
 		int a = 10;
-		System.out.println("Calling b from Static display...");
+		System.out.println("Calling b from static display...");
 		System.out.println(b);
 		System.out.println("Calling a from static display...");
 		System.out.println(a);

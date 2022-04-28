@@ -5,7 +5,6 @@ package Unit_01;
  * -StringBuffer()
  * -StringBuffer(String str)
  * -StringBuffer(int capacity)
- * 
  * -StringBuffer is mutable unlike string
  */
 public class P6_Task03_StringBufferClassInJava {
@@ -32,14 +31,10 @@ public class P6_Task03_StringBufferClassInJava {
 		System.out.println(sb3);//prints Hjavalo
 		
 		
-		
 		//StringBuffer() delete() Method
 		StringBuffer sb4 = new StringBuffer("Hello");
 		sb4.delete(1,3);
 		System.out.println(sb4);//prints hlo
-		
-		
-		
 		
 
 	}
