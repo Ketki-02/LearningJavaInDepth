@@ -10,12 +10,12 @@ public class Q1{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
 
-        Student s1=new Student("Rahul","A",19,80.90);
+        Student s1=new Student("Ragini","A",19,80.90);
         Student s2=new Student("Rakesh","A",19,80.90);
         Student s3=new Student("Vaibhav","A",19,99.90);
-        Student s4=new Student("KamalPreet","A",19,80);
+        Student s4=new Student("Preet","A",19,80);
         Student s5=new Student("Abhishek","A",19,85);
-        Student s6=new Student("Cleopatra","A",19,90);
+        Student s6=new Student("Ketki","A",19,90);
 
         System.out.println("Average Percentage of Students is "+Student.avgPercent);
     }
