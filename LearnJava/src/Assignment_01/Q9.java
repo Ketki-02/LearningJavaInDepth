@@ -5,7 +5,6 @@ public class Q9 {
 		public static void main(String[] args) {
 			
 			System.out.println("Question 09");
-			System.out.println("Aanchaltiwari_G_200121325");
 			System.out.println("\t");
 			
 			AnotherClass obj = new AnotherClass();
